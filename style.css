@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+}
+
+* ::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(117, 94, 94);
+    text-align: center;
+    color: rgb(253, 253, 253);
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.body__header {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 10px 20px;
+    border: 2px solid;
+}
+
+.main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navigation__list {
+    background-color: #4CAF50;
+    list-style: none;
+    text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.navigation__link {
+    float: left;
+}
+
+.navigation__link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    background-color: #111;
+}
+
+.main__subHeader {
+    border: 2px solid rgb(55, 55, 55);
+    background-color: rgb(114, 95, 95);
+    color: bisque;
+}
+
+.element__table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.element__tableCell {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(97, 97, 97);
+    padding: 10px;
+    text-align: center;
+}
+
+.element__tableHeader {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+    color: bisque;
+}
+
+.element {
+    overflow-x: auto;
+}
+
+.element__caption {
+    caption-side: bottom;
+    text-align: right;
+    padding-top: 4px;
+}
+.main__button:hover{
+    background-color: #3e8e41
+}
+
+.main__button:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px)
+}
+
+
+
+
+
+.footer {
+    background-color: rgb(55, 55, 55);
+    border: 2px solid rgb(55, 55, 55);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+}
+
+.footer_footerLink {
+    color: bisque;
+
+}
+
+.hide {
+    display: none;
+}
