@@ -5,4 +5,4 @@ Strona o mnie :D
 
 https://przemekbiernat1998.github.io/homepage/
 
-![image] (zdj2.jpg)
+![image](zdj2.jpg)
